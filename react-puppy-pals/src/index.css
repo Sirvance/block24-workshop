@@ -3,6 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
 
+  
+
   color-scheme:  light;
   color: rgba(12, 10, 10, 0.94);
   background-color: rgb(85, 76, 248);
@@ -15,6 +17,9 @@
 }
 
 a {
+  border-color: #111112;
+  border: #1a1a1a;
+  border-radius: 0.3cm;
   font-style: italic;
   font-size: 0.4cm;
   font-weight: 500;
@@ -26,7 +31,9 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  border-radius: 28cm;
+  border-style: solid;
+  margin: 29;
   display: flex;
   place-items: center;
   min-width: 340px;
@@ -34,23 +41,23 @@ body {
 }
 
 h1 {
-  font-size: 3.7em;
-  line-height: 1.1;
+  font-size: 4.7em;
+  line-height: 1.7;
 }
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 4px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
-  cursor: pointer;
+  cursor: crosshair;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #111112;
+  border-color:#4747c3;
 }
 button:focus,
 button:focus-visible {
